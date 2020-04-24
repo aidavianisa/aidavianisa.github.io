@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="aset/css/sc.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="aset/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style>
+
+		body{
+			font-family: Raleway, sans-serif;
+		}
+		.judul{
+			-webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  			transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+		}
+		.judul .text{
+			letter-spacing: 1rem;
+			-webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+  			transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+		}
+
+		svg {
+		    display: block;
+		    font: 6em Raleway, sans-serif;
+		    position: relative;
+		    left : 0;
+		    top: 0;
+		    width: 100%;
+		    height: 100%;
+		    margin: 0 auto;
+		}
+
+		.text-copy {
+		    fill: none;
+		    stroke: white;
+		    stroke-dasharray: 6% 29%;
+		    stroke-width: 5px;
+		    stroke-dashoffset: 0%;
+		    animation: stroke-offset 5.5s infinite linear;
+		}
+
+		.text-copy:nth-child(1){
+			stroke: #F7FBFC;
+			animation-delay: -1;
+		}
+
+		.text-copy:nth-child(2){
+			stroke: #F7FBFC;
+			animation-delay: -2s;
+		}
+
+		.text-copy:nth-child(3){
+			stroke: #FFD742;
+			animation-delay: -3s;
+		}
+
+		.text-copy:nth-child(4){
+			stroke: #008DD1;
+			animation-delay: -4s;
+		}
+
+		.text-copy:nth-child(5){
+			stroke: #F54C8F;
+			animation-delay: -5s;
+		}
+
+		@keyframes stroke-offset{
+			100% {stroke-dashoffset: -35%;}
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#33015A">
+		<div class="container">
+		  <a class="navbar-brand" href="#">
+		    <img src="aset/logo.png" width="auto" height="30" class="d-inline-block align-top" alt="">
+		    Sidoarjo Smart City
+		  </a>
+		  <!-- <a class="navbar-brand" href="#">Sidoarjo Smart City</a> -->
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="navbar-nav">
+		      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="#">Enam Pilar</a>
+		      <a class="nav-item nav-link" href="#">Info</a>
+		    </div>
+		  </div>
+		</div>
+	</nav>
+	<div class="row">
+		<div class="col-md-12">
+			<div style="background-color:#33015A">
+				<div class="container">
+					<div class="text-center judul" style="padding-bottom: 1rem;">
+						<!-- <h1 class="text-light text">Sidoarjo Smart City</h1> -->
+						<svg viewBox="0 0 960 300">
+							<symbol id="s-text">
+								<text text-anchor="middle" x="50%" y="80%">Sidoarjo Smart City</text>
+							</symbol>
+
+							<g class = "g-ants">
+								<use xlink:href="#s-text" class="text-copy"></use>
+								<use xlink:href="#s-text" class="text-copy"></use>
+								<use xlink:href="#s-text" class="text-copy"></use>
+								<use xlink:href="#s-text" class="text-copy"></use>
+								<use xlink:href="#s-text" class="text-copy"></use>
+							</g>
+						</svg>
+					</div>
+					<img src="aset/2.png" width="100%" height="auto">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-image: linear-gradient(#F7FBFC, #FFFFFF)">
+	<div class="container" style="padding-top: 5rem; padding-bottom: 5rem;">
+		<div class="col-md-12" align="center" style="padding-bottom: 4rem;">
+			<h2 style="color: #33015A"><b>Enam Pilar</b> Smart City</h2>
+			<hr>
+		</div>
+		<div class="row" style="margin-bottom: 7rem">
+			<div class="col-md-4" align="center">
+				<div class='satu'>
+				  <div class='text'>Pemerintah</div>
+				</div>
+			</div>
+			<div class="col-md-4" align="center">
+				<div class='dua'>
+				  <div class='text'>Lingkungan</div>
+				</div>
+			</div>
+			<div class="col-md-4" align="center">
+				<div class='tiga'>
+				  <div class='text'>Branding</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row mb-5" style="margin-top: 7rem">
+			<div class="col-md-4" align="center">
+				<div class='empat'>
+				  <div class='text'>Ekonomi</div>
+				</div>
+			</div>
+			<div class="col-md-4" align="center">
+				<div class='lima'>
+				  <div class='text'>Pola Hidup</div>
+				</div>
+			</div>
+			<div class="col-md-4" align="center">
+				<div class='enam'>
+				  <div class='text'>Masyarakat</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+
+	<footer class="py-5" style="background-color:#AB5CAF">
+        <div class="container"><div class="small text-center text-light">Copyright © 2020 - Dinas Komunikasi dan Informatika Kabupaten Sidoarjo</div></div>
+    </footer>
+</body>
+</html>

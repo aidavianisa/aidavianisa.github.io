@@ -1,0 +1,362 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+/*html {
+  height: 100%;
+}*/
+/*@media (max-width: 32rem) {
+  html {
+    font-size: 12px;
+  }
+}*/
+
+/*body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#111));
+  background-image: linear-gradient(#333, #111);
+  min-height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}*/
+
+html {
+    height: 100%;
+}
+/*body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#F7FBFC, #FFFFFF);
+}*/
+
+body{
+  font-family: Raleway, sans-serif;
+}
+
+.ungu{
+  background-image:#33015A;
+}
+
+.bg-putih{
+  background-image: linear-gradient(#F7FBFC, #FFFFFF);
+}
+
+.satu {
+  display: block;
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  cursor: pointer;
+  background: url(gambar/p.png) no-repeat 100% 50%;
+  background-size: 120%;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);*/
+}
+.satu:hover {
+  /*box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);*/
+  background-position: 0% 50%;
+}
+.satu:hover .text {
+  -webkit-transform: rotate(-45deg) translate(0px) rotate(-315deg);
+          transform: rotate(-45deg) translate(0px) rotate(-315deg);
+  background: rgba(0, 141, 209, 0.5);
+  width: 20rem;
+  letter-spacing: 1rem;
+  line-height: 20rem;
+  height: 20rem;
+  margin-top: -10rem;
+  margin-left: -10rem;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+}
+.satu .text {
+  display: block;
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  line-height: 7rem;
+  left: 50%;
+  top: 50%;
+  margin-top: -5rem;
+  margin-left: -5rem;
+  font-size: 1rem;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background: #008DD1;
+  -webkit-transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+          transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);*/
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.dua {
+  display: block;
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  cursor: pointer;
+  background: url(gambar/lingkungan.png) no-repeat 100% 50%;
+  background-size: 120%;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);*/
+}
+.dua:hover {
+  /*box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);*/
+  background-position: 0% 50%;
+}
+.dua:hover .text {
+  -webkit-transform: rotate(-45deg) translate(0px) rotate(-315deg);
+          transform: rotate(-45deg) translate(0px) rotate(-315deg);
+  background: rgba(66, 183, 69, 0.5);
+  width: 20rem;
+  letter-spacing: 1rem;
+  line-height: 20rem;
+  height: 20rem;
+  margin-top: -10rem;
+  margin-left: -10rem;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+}
+.dua .text {
+  display: block;
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  line-height: 7rem;
+  left: 50%;
+  top: 50%;
+  margin-top: -5rem;
+  margin-left: -5rem;
+  font-size: 1rem;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background: #42B745;
+  -webkit-transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+          transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);*/
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.tiga {
+  display: block;
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  cursor: pointer;
+  background: url(gambar/branding.png) no-repeat 100% 50%;
+  background-size: 120%;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);*/
+}
+.tiga:hover {
+  /*box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);*/
+  background-position: 0% 50%;
+}
+.tiga:hover .text {
+  -webkit-transform: rotate(-45deg) translate(0px) rotate(-315deg);
+          transform: rotate(-45deg) translate(0px) rotate(-315deg);
+  background: rgba(255, 215, 66, 0.5);
+  width: 20rem;
+  letter-spacing: 1rem;
+  line-height: 20rem;
+  height: 20rem;
+  margin-top: -10rem;
+  margin-left: -10rem;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+}
+.tiga .text {
+  display: block;
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  line-height: 7rem;
+  left: 50%;
+  top: 50%;
+  margin-top: -5rem;
+  margin-left: -5rem;
+  font-size: 1rem;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background: #FFD742;
+  -webkit-transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+          transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);*/
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.empat {
+  display: block;
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  cursor: pointer;
+  background: url(gambar/ekonomi.png) no-repeat 100% 50%;
+  background-size: 120%;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);*/
+}
+.empat:hover {
+  /*box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);*/
+  background-position: 0% 50%;
+}
+.empat:hover .text {
+  -webkit-transform: rotate(-45deg) translate(0px) rotate(-315deg);
+          transform: rotate(-45deg) translate(0px) rotate(-315deg);
+  background: rgba(245, 76, 143, 0.5);
+  width: 20rem;
+  letter-spacing: 1rem;
+  line-height: 20rem;
+  height: 20rem;
+  margin-top: -10rem;
+  margin-left: -10rem;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+}
+.empat .text {
+  display: block;
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  line-height: 7rem;
+  left: 50%;
+  top: 50%;
+  margin-top: -5rem;
+  margin-left: -5rem;
+  font-size: 1rem;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background: #F54C8F;
+  -webkit-transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+          transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);*/
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.lima {
+  display: block;
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  cursor: pointer;
+  background: url(gambar/polahidup.png) no-repeat 100% 50%;
+  background-size: 120%;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);*/
+}
+.lima:hover {
+  /*box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);*/
+  background-position: 0% 50%;
+}
+.lima:hover .text {
+  -webkit-transform: rotate(-45deg) translate(0px) rotate(-315deg);
+          transform: rotate(-45deg) translate(0px) rotate(-315deg);
+  background: rgba(247, 131, 32, 0.5);
+  width: 20rem;
+  letter-spacing: 1rem;
+  line-height: 20rem;
+  height: 20rem;
+  margin-top: -10rem;
+  margin-left: -10rem;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+}
+.lima .text {
+  display: block;
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  line-height: 7rem;
+  left: 50%;
+  top: 50%;
+  margin-top: -5rem;
+  margin-left: -5rem;
+  font-size: 1rem;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background: #F78320;
+  -webkit-transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+          transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);*/
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.enam {
+  display: block;
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  cursor: pointer;
+  background: url(gambar/masyarakat.png) no-repeat 100% 50%;
+  background-size: 120%;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);*/
+}
+.enam:hover {
+  /*box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);*/
+  background-position: 0% 50%;
+}
+.enam:hover .text {
+  -webkit-transform: rotate(-45deg) translate(0px) rotate(-315deg);
+          transform: rotate(-45deg) translate(0px) rotate(-315deg);
+  background: rgba(170, 102, 177, 0.5);
+  width: 20rem;
+  letter-spacing: 1rem;
+  line-height: 20rem;
+  height: 20rem;
+  margin-top: -10rem;
+  margin-left: -10rem;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+}
+.enam .text {
+  display: block;
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  line-height: 7rem;
+  left: 50%;
+  top: 50%;
+  margin-top: -5rem;
+  margin-left: -5rem;
+  font-size: 1rem;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background: #AA66B1;
+  -webkit-transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+          transform: rotate(-180deg) translate(-10rem) rotate(180deg);
+  /*box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);*/
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
